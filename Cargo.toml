@@ -7,7 +7,12 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+dela = {git = "ssh://git@github.com/vaheqelyan/dela.rs.git"}
 crossbeam-channel = "0.5"
 glfw = "0.41.0"
 num-traits = "0.2.11"
 freetype-rs = "0.26.0"
+crossbeam = "0.8.0"
+nalgebra-glm = "0.3"
+gl = "0.14.0"
+cgmath = "0.17.0"
